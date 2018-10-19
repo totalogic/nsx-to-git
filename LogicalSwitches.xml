@@ -1,0 +1,2950 @@
+<virtualWire>
+  <objectId>virtualwire-2</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>Workload Transit</name>
+  <description>VXLAN for transit network</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>Unused</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-38</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6000</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>9a21e68e-41a1-44ff-ba27-99f4f7534b51</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-3</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>Mgmt HA</name>
+  <description>VXLAN for HA of mgmt edge appliances</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>Unused</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-39</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6001</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>dd7db5c4-8884-44fb-b454-eb82bbe49ef1</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-4</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>Workload</name>
+  <description>VXLAN for customer workload VMs</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>Unused</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-40</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6002</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>3b498be6-7947-43f1-906c-27f2f751cf74</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-5</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>Workload HA</name>
+  <description>VXLAN for HA of workload edge appliances</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>Unused</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-41</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6003</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>b2e1b24d-089a-4b9a-b559-591685db90c4</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-6</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>3</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>LB-HA</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-93</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6004</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>d59c62a9-7d90-43b6-9948-bec7166165a8</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-7</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl901_prdtransit</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-94</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6005</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>8a9f840f-4966-4b30-91d8-21d62cfc4ee4</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-8</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>nsx router HA</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-95</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6006</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>dcd27d13-d5e6-4822-b288-8acb950d29d5</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-9</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>aasjcvrtm01-ha</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-99</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6007</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>61535169-5ab0-4fd3-af2b-67a5887fa58d</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-10</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>aasjcvnrts01-ha</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-106</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6008</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>032d5cb0-0854-4697-adf8-3a812e96171e</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-11</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>5</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl999_networkmgmt</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-5451</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6009</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>dfdd7574-caab-46e8-99c4-c08cf55f67af</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-12</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>3</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl914_stgmplstansit</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-111</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6010</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>9f90510e-4f59-4979-b15f-0c0fd2db233d</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-13</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl913_mplstransit</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-112</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6011</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>e1f89602-da86-4a94-a690-129d88d05436</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-14</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl904_mplstransitmon</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-113</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6012</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>33a27b4d-3134-487e-a31f-34cef6db5bcf</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-15</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl902_stgtransit</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-114</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6013</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>aac871c4-b9a4-4e17-ad6c-0cccb4e52193</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-16</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl900_montransit</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-115</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6014</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>4569db18-2c3b-4c47-9332-41da87f8670b</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-17</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>hcx-c91e1ec6-b74a-4326-ac8e-77d97cb861cb</name>
+  <description>fleetNetwork</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-124</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6015</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>f1688189-7824-451e-bd3c-eece88a40a07</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-18</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_appstgqa-mon_-6008-7ef4b1e5</name>
+  <description>extended network L2E_L2E_appstgqa-mon_-6008-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-135</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6016</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>8570161b-8735-4774-9882-6aac0567f057</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-19</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_appstgqa-prd_-6007-7ef4b1e5</name>
+  <description>extended network L2E_L2E_appstgqa-prd_-6007-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-137</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6017</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>8179370a-b4bd-4a61-8889-2ce845fe055f</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-20</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_NAS-app-stg_v-6014-7ef4b1e5</name>
+  <description>extended network L2E_L2E_NAS-app-stg_v-6014-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-138</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6018</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>fb095892-b16b-429a-8043-6914da9c5b99</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-21</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_vlan353_vlan--6010-7ef4b1e5</name>
+  <description>extended network L2E_L2E_vlan353_vlan--6010-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-139</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6019</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>36f61c4e-dd31-417c-a961-dc041e9df7c1</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-22</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_csstgqa-mon_v-6002-7ef4b1e5</name>
+  <description>extended network L2E_L2E_csstgqa-mon_v-6002-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-147</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6020</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>44e035de-c060-4d3b-b430-4dbbbfcb40f7</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-23</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_dev-stg-mon-d-6042-7ef4b1e5</name>
+  <description>extended network L2E_L2E_dev-stg-mon-d-6042-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-148</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6021</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>aa015431-0237-495b-a63b-7818c9ae631b</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-24</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_ssm-app-mon-q-6019-7ef4b1e5</name>
+  <description>extended network L2E_L2E_ssm-app-mon-q-6019-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-149</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6022</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>1ce35d67-55a9-4f7b-8898-e9274f45647b</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-25</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_opendmzstgqa--6034-7ef4b1e5</name>
+  <description>extended network L2E_L2E_opendmzstgqa--6034-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-150</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6023</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>51b5aade-5a35-4b73-a820-0f3386d2d1ab</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-26</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_webstgqa-mon_-6012-7ef4b1e5</name>
+  <description>extended network L2E_L2E_webstgqa-mon_-6012-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-151</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6024</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>7a884799-57de-4796-8a6b-8b2947ee7be8</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-27</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_qtp-stg-mon-q-6044-7ef4b1e5</name>
+  <description>extended network L2E_L2E_qtp-stg-mon-q-6044-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-152</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6025</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>0ab9840c-e495-4e70-89a9-a34fab6a0aa5</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-28</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_NAS-app-qa_vl-6009-7ef4b1e5</name>
+  <description>extended network L2E_L2E_NAS-app-qa_vl-6009-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-154</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6026</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>72e0f5dc-c279-4570-9b43-7a777e7e4d5d</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-29</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_NAS-web-qa_vl-6013-7ef4b1e5</name>
+  <description>extended network L2E_L2E_NAS-web-qa_vl-6013-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-155</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6027</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>fd9199e8-7663-4ce1-a0ef-d9780942e4a4</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-30</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_NAS-web-stg_v-6015-7ef4b1e5</name>
+  <description>extended network L2E_L2E_NAS-web-stg_v-6015-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-156</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6028</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>6de249c9-727b-47e1-a3d7-a16e1c0c7b2e</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-31</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_dev-stg-dev-s-6043-7ef4b1e5</name>
+  <description>extended network L2E_L2E_dev-stg-dev-s-6043-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-181</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6029</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>db8cb46d-920d-494a-a05b-4951ad708494</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-32</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_csstgqa-prd_v-6000-7ef4b1e5</name>
+  <description>extended network L2E_L2E_csstgqa-prd_v-6000-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-182</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6030</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>91bcd597-365c-4d36-a4a1-ebf9e09c60ec</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-33</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_webstgqa-prd_-6011-7ef4b1e5</name>
+  <description>extended network L2E_L2E_webstgqa-prd_-6011-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-183</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6031</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>b536a5a8-7cab-4259-bb6b-c8b5b1cd045a</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-34</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_opendmzstgqa--6035-7ef4b1e5</name>
+  <description>extended network L2E_L2E_opendmzstgqa--6035-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-184</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6032</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>be32dc13-b80b-44ed-b7b2-5bba92df2d9c</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-35</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_qtp-stg_vlan--6033-7ef4b1e5</name>
+  <description>extended network L2E_L2E_qtp-stg_vlan--6033-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-185</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6033</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>e6a43ec7-382d-4812-90ca-3bc4e120a879</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-36</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_ssm-app-qa_vl-6018-7ef4b1e5</name>
+  <description>extended network L2E_L2E_ssm-app-qa_vl-6018-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-186</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6034</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>329ba4bc-b581-4613-ab6d-ddecd2b4551f</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-37</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>3</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl666_utility</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-195</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6035</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>cc5645f4-10e2-4c29-9573-71e9097c18d5</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-38</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>vl850_gtmdns</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-196</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6036</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>51c8b3a2-69f5-4795-b5d3-dde3bc910638</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-39</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>GTM-HA</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-197</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6037</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>9751b3c9-d63e-47f7-b0ab-5c675c35d8a0</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-40</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>DB-prd-ssm-heartbeat</name>
+  <description></description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>virtual wire tenant</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-198</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6038</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>606abd37-f133-4398-809a-ccae39b00263</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-42</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_APP-prd-APP-p-6037-7ef4b1e5</name>
+  <description>extended network L2E_L2E_APP-prd-APP-p-6037-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-351</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6039</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>4073674d-4b23-4fa5-a9e8-8b18106c2e25</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-43</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_ssm-win-mgmt--6054-7ef4b1e5</name>
+  <description>extended network L2E_L2E_ssm-win-mgmt--6054-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-352</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6040</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>1cd23bd4-037d-4f79-bd48-b433ea73e4e4</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-44</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_opendmz-prd-o-6047-7ef4b1e5</name>
+  <description>extended network L2E_L2E_opendmz-prd-o-6047-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-353</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6041</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>1a0c0813-ad57-445a-8355-dc5f1390f992</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-45</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_dev-prd-dev-p-6046-7ef4b1e5</name>
+  <description>extended network L2E_L2E_dev-prd-dev-p-6046-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-354</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6042</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>394f8cfa-0e41-4384-acd2-441949de1433</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-46</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_CS_DSB_APP-pr-6031-7ef4b1e5</name>
+  <description>extended network L2E_L2E_CS_DSB_APP-pr-6031-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-355</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6043</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>f118c0f5-9347-4789-8050-c560ae501ee5</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-47</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_WEB-prd-WEB-p-6041-7ef4b1e5</name>
+  <description>extended network L2E_L2E_WEB-prd-WEB-p-6041-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-356</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6044</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>446e7c30-c243-4e72-8a67-aab214b61e95</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-48</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_ssm-prod-app--6051-7ef4b1e5</name>
+  <description>extended network L2E_L2E_ssm-prod-app--6051-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-357</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6045</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>c653b5f9-41f7-4ad5-8d5b-71f35f908103</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-49</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_APP-MON-APP-M-6036-7ef4b1e5</name>
+  <description>extended network L2E_L2E_APP-MON-APP-M-6036-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-370</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6046</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>dcdaa379-220c-4dbe-86ea-18cd798af114</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-50</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_WEB-MON-WEB-M-6040-7ef4b1e5</name>
+  <description>extended network L2E_L2E_WEB-MON-WEB-M-6040-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-371</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6047</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>fb2dec38-300c-44d4-ac04-364f73dcc742</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-51</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_CS-MON_vlan-C-6016-7ef4b1e5</name>
+  <description>extended network L2E_L2E_CS-MON_vlan-C-6016-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-376</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6048</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>644972b7-e460-4003-874b-a8c893bd1936</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-52</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_opendmz-mon-o-6032-7ef4b1e5</name>
+  <description>extended network L2E_L2E_opendmz-mon-o-6032-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-377</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6049</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>0d71e40b-f2db-4f0b-a6f4-8ad6e41d0b65</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-53</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_dev-prd-mon-d-6045-7ef4b1e5</name>
+  <description>extended network L2E_L2E_dev-prd-mon-d-6045-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-378</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6050</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>e8080082-9f1a-47c9-8cba-ac8575f50aed</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-54</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_ssm-prod-app--6053-7ef4b1e5</name>
+  <description>extended network L2E_L2E_ssm-prod-app--6053-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-379</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6051</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>098af696-7294-4133-8d22-ab15e91e7a72</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-55</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_ssm-win-mgmt--6052-7ef4b1e5</name>
+  <description>extended network L2E_L2E_ssm-win-mgmt--6052-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-380</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6052</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>72212e00-a9c3-48d0-a394-1589ff6b02d4</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-56</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_NAS-web-prd-N-6039-7ef4b1e5</name>
+  <description>extended network L2E_L2E_NAS-web-prd-N-6039-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-381</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6053</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>e04592c5-071c-4e86-b464-3c17a2a2fdbf</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-57</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_NAS-app-prd-N-6038-7ef4b1e5</name>
+  <description>extended network L2E_L2E_NAS-app-prd-N-6038-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-382</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6054</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>2153c3fb-0a49-4ec4-945b-94b82c9c80e6</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-58</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_vl666_utility-6030-7ef4b1e5</name>
+  <description>extended network L2E_vl666_utility-6030-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-462</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6055</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>c04d9f5d-d6f8-4947-9dec-7a275a4e3026</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-59</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_vl999_networkmgmt-6022-7ef4b1e5</name>
+  <description>extended network L2E_vl999_networkmgmt-6022-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-795</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6056</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>5a6700a5-c47a-4c10-8938-c69ca6d37b96</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-60</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_L2E_vlan349-vlan3-6055-7ef4b1e5</name>
+  <description>extended network L2E_L2E_vlan349-vlan3-6055-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-971</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6057</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>5093e32d-3ec7-4bee-bd1e-eff427014991</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>
+<virtualWire>
+  <objectId>virtualwire-61</objectId>
+  <objectTypeName>VirtualWire</objectTypeName>
+  <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+  <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+  <revision>2</revision>
+  <type>
+    <typeName>VirtualWire</typeName>
+  </type>
+  <name>L2E_vl835_backendtrans-835-7ef4b1e5</name>
+  <description>extended network L2E_vl835_backendtrans-835-7ef4b1e5</description>
+  <clientHandle></clientHandle>
+  <extendedAttributes />
+  <isUniversal>false</isUniversal>
+  <universalRevision>0</universalRevision>
+  <tenantId>DEFAULT</tenantId>
+  <vdnScopeId>vdnscope-1</vdnScopeId>
+  <vdsContextWithBacking>
+    <switch>
+      <objectId>dvs-22</objectId>
+      <objectTypeName>VmwareDistributedVirtualSwitch</objectTypeName>
+      <vsmUuid>4205547D-8654-3CBE-6F61-77CB28E687C4</vsmUuid>
+      <nodeId>f0a4169c-c597-4c95-80ea-c7efe084a675</nodeId>
+      <revision>86</revision>
+      <type>
+        <typeName>VmwareDistributedVirtualSwitch</typeName>
+      </type>
+      <name>SDDC-Dswitch-Private</name>
+      <scope>
+        <id>datacenter-2</id>
+        <objectTypeName>Datacenter</objectTypeName>
+        <name>datacenter1</name>
+      </scope>
+      <clientHandle></clientHandle>
+      <extendedAttributes />
+      <isUniversal>false</isUniversal>
+      <universalRevision>0</universalRevision>
+    </switch>
+    <mtu>9000</mtu>
+    <promiscuousMode>false</promiscuousMode>
+    <backingType>portgroup</backingType>
+    <backingValue>dvportgroup-972</backingValue>
+    <missingOnVc>false</missingOnVc>
+  </vdsContextWithBacking>
+  <vdnId>6058</vdnId>
+  <guestVlanAllowed>false</guestVlanAllowed>
+  <controlPlaneMode>UNICAST_MODE</controlPlaneMode>
+  <ctrlLsUuid>9c7561c9-9c42-4a5d-85ca-d9bfc097b3ae</ctrlLsUuid>
+  <macLearningEnabled>false</macLearningEnabled>
+</virtualWire>

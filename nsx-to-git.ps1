@@ -13,7 +13,7 @@
 
 
 #Requires -Version 3.0
-#Requires -Modules PowerNSX
+#Requires -Module PowerNSX
 
 
 param (

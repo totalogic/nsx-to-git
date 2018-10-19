@@ -1,0 +1,96 @@
+<firewallDraft id="17" name="AutoSaved_Thursday, September 20, 2018 7:04:54 AM GMT" timestamp="1537427094232">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="16" name="AutoSaved_Monday, August 13, 2018 7:51:04 PM GMT" timestamp="1534189864846">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="15" name="AutoSaved_Monday, August 13, 2018 7:50:10 PM GMT" timestamp="1534189810744">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="14" name="AutoSaved_Monday, August 13, 2018 7:48:12 PM GMT" timestamp="1534189692554">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="13" name="AutoSaved_Wednesday, July 11, 2018 7:44:02 PM GMT" timestamp="1531338242247">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="12" name="AutoSaved_Wednesday, July 11, 2018 7:43:42 PM GMT" timestamp="1531338222697">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="11" name="AutoSaved_Wednesday, July 11, 2018 7:35:19 PM GMT" timestamp="1531337719770">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="10" name="AutoSaved_Wednesday, July 11, 2018 7:33:33 PM GMT" timestamp="1531337613475">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="9" name="AutoSaved_Wednesday, July 11, 2018 7:15:02 PM GMT" timestamp="1531336502182">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="8" name="AutoSaved_Wednesday, July 11, 2018 7:11:08 PM GMT" timestamp="1531336268582">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="7" name="New_Applied_To" timestamp="1531180953285">
+  <description></description>
+  <preserve>true</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>userdefined</mode>
+</firewallDraft>
+<firewallDraft id="6" name="Temp-Define-Issues-062618" timestamp="1530029799628">
+  <description></description>
+  <preserve>true</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>userdefined</mode>
+</firewallDraft>
+<firewallDraft id="5" name="AutoSaved_Saturday, June 23, 2018 7:31:08 AM GMT" timestamp="1529739068536">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="4" name="AutoSaved_Saturday, June 23, 2018 6:23:23 AM GMT" timestamp="1529735003793">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="3" name="AutoSaved_Saturday, June 23, 2018 6:22:26 AM GMT" timestamp="1529734946435">
+  <description>Auto saved configuration</description>
+  <preserve>false</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>autosaved</mode>
+</firewallDraft>
+<firewallDraft id="2" name="firewall-configuration-6222018 93146 AM.xml" timestamp="1529674398951">
+  <description>Exported configuration</description>
+  <preserve>true</preserve>
+  <user>vsphere.local\Administrator</user>
+  <mode>imported</mode>
+</firewallDraft>
